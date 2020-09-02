@@ -1,0 +1,4 @@
+C:/sand
+#:[do not add spaces.. this will cause errors with uspm..]
+#:[EXAMPLE: C:/sand, this will install the packages in std/libs]
+#:[Do not add a / or \ to the end]
