@@ -13,7 +13,8 @@
 */
 
 
-int main( int argc, char *argv[] ) {
+int main( int argc, char *argv[] ) 
+{
     printf("USPM v0.1.0 -- [GLOBAL]\n");
     printf("Loading: Please Stand By\n");
 
