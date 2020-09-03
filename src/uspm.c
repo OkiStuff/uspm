@@ -23,18 +23,13 @@ int main( int argc, char *argv[] ) {
     fptr = fopen("sand.global","r");
     fscanf(fptr, "%s", globalDir);
 
-    char i [256];
     char git [256];
-    char x [256];
 
 
     sprintf( git, "git clone %s %s/std/libs/%s/", argv[1], globalDir, argv[2]);
-    sprintf(i, "echo Warning: Make sure Git is working");
-    sprintf(x, "echo Exiting Now..");
+    printf("echo Warning: Make sure Git is working");
+    printf("Exiting Now..");
 
-    system(i);
     system(git);
-    system(x);
-
     fclose(fptr);
 }
